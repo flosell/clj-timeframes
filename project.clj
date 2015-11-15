@@ -1,4 +1,4 @@
-(defproject clj-timeframes "0.1.0"
+(defproject clj-timeframes "0.1.1-SNAPSHOT"
   :description "A small library to merge overlapping clj-time intervals"
   :url "https://github.com/flosell/clj-timeframes"
   :license {:name "Eclipse Public License"
