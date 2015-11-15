@@ -1,6 +1,6 @@
 # clj-timeframes
 
-A Clojure library designed to ... well, that part is up to you.
+A small library to merge overlapping clj-time intervals
 
 ## Usage
 
