@@ -3,6 +3,8 @@
   :url "https://github.com/flosell/clj-timeframes"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :deploy-repositories [["clojars" {:creds :gpg}]
+                        ["releases" :clojars]]
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [clj-time "0.11.0"]
                  [com.gfredericks/test.chuck "0.2.1"]
