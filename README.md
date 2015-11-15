@@ -4,7 +4,12 @@ A small library to merge overlapping clj-time intervals
 
 ## Usage
 
-FIXME
+## Status
+
+[![Build Status](https://travis-ci.org/flosell/clj-timeframes.svg)](https://travis-ci.org/flosell/clj-timeframes)
+
+[![Clojars Project](http://clojars.org/clj-timeframes/latest-version.svg)](http://clojars.org/clj-timeframes)
+
 
 ## License
 
