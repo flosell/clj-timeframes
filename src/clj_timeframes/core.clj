@@ -12,6 +12,7 @@
 
 (defn-  merge-internal [current sorted-remaining]
   (cond
+    (nil? current) #{}
     (empty? sorted-remaining) #{current}
     (should-merge? current (first sorted-remaining)) (let [new-cur (merge-interval current (first sorted-remaining))
                                                          rest-result (merge-internal new-cur (rest sorted-remaining))]
